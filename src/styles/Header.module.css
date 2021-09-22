@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header nav ul {
+    list-style: none;
+}
+
+.header nav ul li {
+    font-size: 1.8rem;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+  padding: 3rem 0;
+  height: 100vh;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,33 @@
+.title {
+    font-size: 5.5rem;
+    max-width: 20ch;
+}
+
+.paragraph {
+    font-size: 2.4rem;
+}
+
+.artesan {
+    color: #206e79;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+    .title {
+        font-size: 3.4rem;
+    }
+
+    .paragraph {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .paragraph {
+        font-size: 1.6rem;
+    }
+}
