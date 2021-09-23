@@ -1,0 +1,53 @@
+.MyStack {
+    margin-top: 4.7rem;
+}
+
+.MyStack h2 {
+    font-size: 3.5rem;
+}
+
+.MyStack h2 span {
+    text-decoration: underline;
+}
+
+.stack {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.stack div ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.stack div ul li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.stack div ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.stack div ul li span {
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 425px) {
+    .MyStack h2 {
+        font-size: 2.4rem;
+    }
+
+    .stack {
+        flex-direction: column;
+    }
+
+    .stack div ul li span {
+        font-size: 1.8rem;
+    }
+}

@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
+import MyStack from '../components/MyStack'
 import Presentation from '../components/Presentation'
 import styles from '../styles/Home.module.css'
 
@@ -17,9 +18,10 @@ const Home: NextPage = () => {
       <Header />
       <main>
         <Presentation />
+        <MyStack />
       </main>
     </div>
   )
 }
 
-export default Home
+export default Home;
